@@ -56,11 +56,7 @@ class NowViewController: UIViewController, NowScreenViewProtocol {
     }
     
     func setupViews() {
-        if #available(iOS 13.0, *) {
-            view.backgroundColor = .systemBackground
-        } else {
-            view.backgroundColor = .white
-        }
+        view.backgroundColor = .white
         navigationController?.navigationBar.prefersLargeTitles = true
         
         let sv = UIStackView()

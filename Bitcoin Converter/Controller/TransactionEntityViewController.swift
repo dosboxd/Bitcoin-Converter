@@ -98,11 +98,7 @@ final class TransactionEntityViewController: UIViewController {
     }
     
     func setupViews() {
-        if #available(iOS 13.0, *) {
-            view.backgroundColor = .systemBackground
-        } else {
-            view.backgroundColor = .white
-        }
+        view.backgroundColor = .white
         view.addSubview(amountLabel)
         
         amountLabel.snp.makeConstraints { make in

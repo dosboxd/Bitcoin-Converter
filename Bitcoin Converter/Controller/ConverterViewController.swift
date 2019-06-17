@@ -14,7 +14,7 @@ final class ConverterViewController: UIViewController {
         let control = UISegmentedControl(items: Currency.allCases.map({$0.code}))
         control.addTarget(self, action: #selector(valueChanged), for: .valueChanged)
         control.selectedSegmentIndex = 0
-        control.tintColor = .systemBlue
+        control.tintColor = .titleBlue
         return control
     }()
     
@@ -68,12 +68,7 @@ final class ConverterViewController: UIViewController {
     }
     
     func setupViews() {
-        if #available(iOS 13.0, *) {
-            view.backgroundColor = .systemBackground
-        } else {
-            view.backgroundColor = .white
-        }
-        
+        view.backgroundColor = .white
         navigationController?.navigationBar.prefersLargeTitles = true
         
         view.addSubview(currencySegmentedControl)

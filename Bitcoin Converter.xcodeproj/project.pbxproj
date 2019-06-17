@@ -13,8 +13,6 @@
 		1907B2BC22AFE23D00614480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1907B2BA22AFE23D00614480 /* LaunchScreen.storyboard */; };
 		1907B2C422AFE43D00614480 /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1907B2C322AFE43D00614480 /* HomeTabBarController.swift */; };
 		19094B2422B1535C00E0C0D3 /* TranscationListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19094B2322B1535C00E0C0D3 /* TranscationListModel.swift */; };
-		192C21D722B2BD7E00059D20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192C21D622B2BD7D00059D20 /* SceneDelegate.swift */; };
-		192C21D922B2BE2A00059D20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192C21D822B2BE2900059D20 /* Main.storyboard */; };
 		1991824322B60DFB00A52DA8 /* ChartDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1991824222B60DFA00A52DA8 /* ChartDataModel.swift */; };
 		199F2C4F22B0129F0052A132 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F2C4E22B0129F0052A132 /* NetworkLayer.swift */; };
 		199F2C5122B014FC0052A132 /* TransactionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F2C5022B014FC0052A132 /* TransactionListViewController.swift */; };
@@ -37,8 +35,6 @@
 		1907B2BD22AFE23D00614480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1907B2C322AFE43D00614480 /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
 		19094B2322B1535C00E0C0D3 /* TranscationListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscationListModel.swift; sourceTree = "<group>"; };
-		192C21D622B2BD7D00059D20 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		192C21D822B2BE2900059D20 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1991824222B60DFA00A52DA8 /* ChartDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDataModel.swift; sourceTree = "<group>"; };
 		199F2C4E22B0129F0052A132 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
 		199F2C5022B014FC0052A132 /* TransactionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewController.swift; sourceTree = "<group>"; };
@@ -91,11 +87,9 @@
 				19A0B05122B018FC00913E8D /* Controller */,
 				19A0B04E22B018E100913E8D /* Model */,
 				1907B2AF22AFE23900614480 /* AppDelegate.swift */,
-				192C21D622B2BD7D00059D20 /* SceneDelegate.swift */,
 				19ADA06A22B02F87006A79B9 /* Extensions.swift */,
 				1907B2B822AFE23D00614480 /* Assets.xcassets */,
 				1907B2BA22AFE23D00614480 /* LaunchScreen.storyboard */,
-				192C21D822B2BE2900059D20 /* Main.storyboard */,
 				1907B2BD22AFE23D00614480 /* Info.plist */,
 			);
 			path = "Bitcoin Converter";
@@ -210,7 +204,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				192C21D922B2BE2A00059D20 /* Main.storyboard in Resources */,
 				1907B2BC22AFE23D00614480 /* LaunchScreen.storyboard in Resources */,
 				1907B2B922AFE23D00614480 /* Assets.xcassets in Resources */,
 			);
@@ -245,7 +238,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				199F2C5122B014FC0052A132 /* TransactionListViewController.swift in Sources */,
-				192C21D722B2BD7E00059D20 /* SceneDelegate.swift in Sources */,
 				19B3B23F22B22C020091B669 /* ConverterViewController.swift in Sources */,
 				19B3B23B22B20A790091B669 /* TransactionTableViewCell.swift in Sources */,
 				19ADA06B22B02F87006A79B9 /* Extensions.swift in Sources */,
@@ -326,7 +318,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -380,7 +372,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -395,6 +387,7 @@
 			baseConfigurationReference = 211F30A55517B0EDA0C45FF3 /* Pods-Bitcoin Converter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2ZXG42P8KB;
 				INFOPLIST_FILE = "Bitcoin Converter/Info.plist";
@@ -405,6 +398,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dosboxd.Bitcoin-Converter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -415,6 +409,7 @@
 			baseConfigurationReference = B6205F447AA4A0111452A8D5 /* Pods-Bitcoin Converter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2ZXG42P8KB;
 				INFOPLIST_FILE = "Bitcoin Converter/Info.plist";
@@ -425,6 +420,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dosboxd.Bitcoin-Converter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
