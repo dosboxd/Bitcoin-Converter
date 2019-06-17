@@ -1,0 +1,6 @@
+module Pods_Bitcoin_Converter {
+  umbrella header "Pods-Bitcoin Converter-umbrella.h"
+
+  export *
+  module * { export * }
+}
