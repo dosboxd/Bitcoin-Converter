@@ -1,0 +1,1 @@
+Podfiles only to build project faster, never track Pods/ in real project.
